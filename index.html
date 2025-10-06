@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio project</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<main>
+
+    <!-- header section -->
+    
+        <header>
+            <div class="information">
+                <img src="./images/Profile-photo.jpg" alt="Profile pics">
+                <div class="intro-text">
+                    <h1>Hi, I am Salwin S</h1>
+                    <p>Enthusiastic Software Developer specializing in web technologies and data analytics, eager to design innovative, scalable, and impactful digital solutions.</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/salwin-solomon-b32a70216" target="_blank" class="link-box">
+                    <span>LinkedIn</span>
+                </a>
+                <a href="./images/assets/salwins_cv_resume.pdf" download class="link-box">
+                    <span>Download Resume</span>
+                </a>
+                <a href="https://github.com/salwin-s2003" target="_blank" class="link-box">
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- nav bar -->
+        
+        <nav>
+            <button class="nav-toggle" id="navToggle">☰</button>
+            <ul id="navMenu">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact me">Education</a></li>
+                <li class="dropdown">
+                    <a href="#projects">Projects</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#projects">All Projects</a></li>
+                        <li><a href="./major-project.html">Major Project</a></li>
+                        <li><a href="./mini-project.html">Mini Project</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- about me  -->
+        
+        <section id="about-me">
+            <h2>About Me</h2>
+            <div class="about-text">
+                <p>As a fresher in the tech field, I bring a strong foundation in software development and data science. I’m curious by nature and adaptable by mindset — always eager to learn, experiment, and grow. My goal is to combine creativity and technology to deliver solutions that make a difference.</p>
+            </div>
+            <div class="about-text about-text-small">
+                <p>A tech enthusiast with skills in full stack development and data analysis, I’m focused on learning, building, and solving real-world problems through technology.</p>
+            </div>
+        </section>
+        
+        <!-- Mission & vision -->
+
+        <section id="mission-vision">
+            <h2>Mission & Vision</h2>
+            <div class="card-container">
+                <!-- Mission Card -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Mission</h3>
+                            <p>Click to reveal</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>My Mission</h3>
+                            <p>To leverage technology and innovation to create impactful solutions that solve real-world problems. I am committed to continuous learning, collaboration, and delivering high-quality work that makes a difference in people's lives.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vision Card -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Vision</h3>
+                            <p>Click to reveal</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>My Vision</h3>
+                            <p>To become a skilled software developer who contributes to building innovative, scalable, and sustainable digital solutions. I envision a future where technology empowers individuals and communities, and I aim to be at the forefront of that transformation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-container">
+                <!-- B.Tech -->
+                <div class="education-card">
+                    <div class="education-header">
+                        <div class="degree-info">
+                            <h3>B.TECH Computer Science Engineering</h3>
+                            <p class="specialization">Specialization in Data Science</p>
+                        </div>
+                        <div class="year">2021 - 2025</div>
+                    </div>
+                    <div class="education-body">
+                        <p class="institution">Presidency University, Bengaluru</p>
+                        <div class="grade">
+                            <span class="grade-label">CGPA:</span>
+                            <span class="grade-value">8.70/10.0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 12th Grade -->
+                <div class="education-card">
+                    <div class="education-header">
+                        <div class="degree-info">
+                            <h3>PCMC (12th)</h3>
+                        </div>
+                        <div class="year">2019 - 2021</div>
+                    </div>
+                    <div class="education-body">
+                        <p class="institution">Lake Montfort School, Bengaluru</p>
+                        <div class="grade">
+                            <span class="grade-label">Percentage:</span>
+                            <span class="grade-value">86%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10th Grade -->
+                <div class="education-card">
+                    <div class="education-header">
+                        <div class="degree-info">
+                            <h3>High School (10th)</h3>
+                        </div>
+                        <div class="year">2009 - 2019</div>
+                    </div>
+                    <div class="education-body">
+                        <p class="institution">Auxilium ICSE School, Bengaluru</p>
+                        <div class="grade">
+                            <span class="grade-label">Percentage:</span>
+                            <span class="grade-value">72.83%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project major-project">
+                    <img src="./images/assets/MajorProject.jpg" alt="Major Project">
+                    <button class="btn btn-primary">
+                    <a href="./major-project.html">Major Project </a>
+                    </button>
+                </div>
+                <div class="project mini-project">
+                    <img src="./images/assets/Logo-The-Mini-project.png" alt="Major Project">
+                    <button class="btn btn-primary">
+                    <a href="./mini-project.html">Mini Project</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills -->
+
+        <!-- skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SQL</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML & CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React (Basics)</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Linux Commands</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevOps -->
+                <div class="skill-category">
+                    <h3>DevOps</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CI/CD Pipelines</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Science Tools -->
+                <div class="skill-category">
+                    <h3>Data Science Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Pandas</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>NumPy</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Matplotlib</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Seaborn</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Analytics & AI -->
+                <div class="skill-category">
+                    <h3>Analytics & AI</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>AI Tool Proficiency</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Analytical Mindset</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Developer Tools -->
+                <div class="skill-category">
+                    <h3>Developer Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Visual Studio Code</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Power BI</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git & GitHub</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Jupyter Notebook</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Advanced Excel</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MySQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Oracle SQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <p class="contact-intro">Feel free to reach out to me for collaborations, opportunities, or just to connect!</p>
+                
+                <div class="contact-cards">
+                    <!-- Email Card -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                            </svg>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:salwinsolomon12345@gmail.com">salwinsolomon12345@gmail.com</a>
+                    </div>
+
+                    <!-- LinkedIn Card -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/salwin-solomon-b32a70216" target="_blank">Connect on LinkedIn</a>
+                    </div>
+
+                    <!-- Location Card -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Bengaluru, Karnataka</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Salwin S. All Rights Reserved.</p>
+    </footer>
+<!-- logic for the mobile device toggle button -->
+    <script>
+        // Wait for the DOM to fully load
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // 1. Get references to elements
+            const navToggle = document.getElementById('navToggle');
+            const navMenu = document.getElementById('navMenu');
+            const dropdown = document.querySelector('.dropdown');
+            const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+            
+            // 2. Toggle mobile menu (hamburger functionality)
+            navToggle.addEventListener('click', function() {
+                // Toggle 'active' class on the menu
+                navMenu.classList.toggle('active');
+            });
+            
+            // 3. Handle dropdown clicks on mobile
+            dropdownToggle.addEventListener('click', function(e) {
+                // Check if we're on mobile (screen width <= 768px)
+                if (window.innerWidth <= 768) {
+                    e.preventDefault(); // Prevent default link behavior
+                    dropdown.classList.toggle('active'); // Toggle dropdown
+                }
+                // On desktop, let the link work normally
+            });
+            
+            // 4. Close menu when clicking outside
+            document.addEventListener('click', function(e) {
+                // If click is outside nav, close everything
+                if (!e.target.closest('nav')) {
+                    navMenu.classList.remove('active');
+                    dropdown.classList.remove('active');
+                }
+            });
+            
+            // 5. Close mobile menu when window is resized to desktop
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('active');
+                    dropdown.classList.remove('active');
+                }
+            });
+            
+        });
+
+        // Dropdown click handler for mobile
+        document.querySelectorAll('.dropdown > a').forEach(dropdownLink => {
+            dropdownLink.addEventListener('click', e => {
+                e.preventDefault(); // prevent "#" navigation
+                dropdownLink.parentElement.classList.toggle('active');
+            });
+        });
+
+</script>
+</body>
+</html>
